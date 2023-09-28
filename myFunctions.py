@@ -39,3 +39,12 @@ print(math.ceil(5.12))
 print(math.pow(2,7))
 print(math.fabs(-9))
 print(math.sqrt(256))
+
+
+#formatting our output
+# when it comes to numbers, it's nice to be able to
+#  control decimal places visible
+myNumber = 3.4567
+print( myNumber)
+print("{0:.2f}".format(myNumber))
+print("{0:.3f}".format(myNumber))
